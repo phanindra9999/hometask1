@@ -1,13 +1,13 @@
 import './App.css';
 import SimpleComponent from './components/SimpleComponent';
-import MovieList from './components/MovieList';
+import YoutubePage from './components/YoutubePage';
 
 function App() {
   return (
     <div className="App">
       <SimpleComponent/>
       <hr/>
-      <MovieList/>
+      <YoutubePage />
     </div>
   );
 }
